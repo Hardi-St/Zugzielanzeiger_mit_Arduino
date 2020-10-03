@@ -1,0 +1,28 @@
+Abmessungen: 99.82 x 87.67
+
+Top:                + = Copper,  * = Silk
++ Top
++ Pads
++ Vias
+# Dimension
+* tPlace
+* tDocu
+* _tNames
+
+ Nicht _tValues
+ Nicht tNames
+ Nicht Holes
+
+Bottom:
++ Bottom
++ Pads
++ Vias
+# Dimension
+* bPlace
+* bDocu
+* _bNames
+
+
+ Nicht _bValues
+ Nicht bNames
+ Nicht Holes

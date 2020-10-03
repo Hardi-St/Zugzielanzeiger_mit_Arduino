@@ -1,0 +1,81 @@
+Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\Bahnsteiganzeige_Hardi.ino  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\Bahnsteiganzeige_Hardi.ino  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\Text_Messages.h  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\Bahnsteiganzeige_Hardi.ino  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\Configuration.h  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\Push_Button.h  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\LED_HeartBeat.h  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\Bahnsteiganzeige_Hardi.ino  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\Bahnsteiganzeige_Hardi.ino  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Processing C:\Dat\M„rklin\Arduino\Zugzielanzeiger\Bahnsteiganzeige_Hardi\Configuration.h  
+Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|Warning: fart may corrupt binary files
+|

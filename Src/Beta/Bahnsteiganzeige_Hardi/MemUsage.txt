@@ -1,0 +1,227 @@
+00002114 T main
+00001173 t u8g2_font_6x13B_t_german
+00001122 t u8g2_font_tpss_t_german
+00000952 t u8g2_font_5x8_t_german
+00000930 T Write_Display_to_OLED()
+00000792 t u8g2_font_4x6_t_german
+00000779 t Text_Messages
+00000690 T Process_Character(char)
+00000676 T ExternalInterruptHandler()
+00000604 T __vector_24
+00000578 T processMultiFunctionMessage(unsigned int, DCC_ADDR_TYPE, unsigned char, unsigned char, unsigned char)
+00000544 t global constructors keyed to 65535_0_Bahnsteiganzeige_Hardi.ino.cpp.o.13231
+00000514 T u8g2_DrawGlyph
+00000512 b buf.6986
+00000408 T u8x8_byte_arduino_hw_i2c
+00000362 T u8x8_d_ssd1306_128x32_univision
+00000326 T u8x8_gpio_and_delay_arduino
+00000258 T notifyDccAccTurnoutOutput
+00000238 T u8g2_update_page_win_r2
+00000222 T processDirectOpsOperation(unsigned char, unsigned int, unsigned char)
+00000216 T u8g2_font_get_glyph_data
+00000216 T u8g2_DrawHVLine
+00000190 t u8g2_send_buffer
+00000188 T u8g2_ll_hvline_vertical_top_lsb
+00000182 T u8x8_cad_ssd13xx_i2c
+00000178 t u8g2_font_decode_len
+00000170 T getMyAddr()
+00000158 T u8g2_string_width.constprop.41
+00000157 B Serial
+00000156 t u8x8_cad_SendSequence
+00000156 T writeCV(unsigned int, unsigned char)
+00000148 T __vector_16
+00000142 T HardwareSerial::write(unsigned char)
+00000140 T u8g2_update_dimension_r2
+00000132 B u8g
+00000130 T Print::printNumber(unsigned long, unsigned char) [clone .constprop.57]
+00000130 T validCV(unsigned int, unsigned char)
+00000122 T u8g2_draw_string.constprop.48
+00000122 T Activate_Display_from_Flash_by_Nr(unsigned char)
+00000121 b lauftext
+00000120 T pinMode
+00000120 t Short_Mode_Next_ProcState()
+00000114 T u8g2_NextPage
+00000102 T resetServiceModeTimer(unsigned char)
+00000100 T __vector_18
+00000096 T digitalWrite
+00000096 T TwoWire::write(unsigned char const*, unsigned int)
+00000094 T TwoWire::write(unsigned char)
+00000092 T u8g2_font_decode_get_unsigned_bits
+00000090 t Disp
+00000086 T Print::write(unsigned char const*, unsigned int)
+00000086 T U8G2::write(unsigned char)
+00000082 T u8g2_font_setup_decode.lto_priv.64
+00000082 t turnOffPWM
+00000082 T digitalRead
+00000080 t twi_transmit
+00000080 T U8G2::write(unsigned char const*, unsigned int)
+00000078 T __vector_2
+00000078 T __vector_1
+00000076 T u8g2_IsIntersection
+00000076 t ProcState_Outside_Disp(unsigned char)
+00000076 T __vector_19
+00000074 T micros
+00000068 T attachInterrupt.constprop.22
+00000068 T HardwareSerial::flush()
+00000068 T __udivmodsi4
+00000066 T u8g2_draw_l90_r2
+00000066 T Print::print(__FlashStringHelper const*) [clone .constprop.59]
+00000066 T HardwareSerial::_tx_udr_empty_irq()
+00000064 T Enable_OLED_Pin(unsigned char)
+00000060 T atoi
+00000058 t u8x8_i2c_data_transfer
+00000053 d u8x8_d_ssd1306_128x32_univision_init_seq
+00000052 T Set_Rail_Defaults(unsigned char)
+00000050 T Push_Button::Pressed()
+00000050 t Display_has_Roling_Text()
+00000048 t Activate_OLED(unsigned char)
+00000040 t u8g2_ClearBuffer
+00000040 T HardwareSerial::read()
+00000040 T __udivmodhi4
+00000040 T __divmodhi4
+00000038 T u8g2_SetBufferCurrTileRow
+00000036 T u8g2_FirstPage
+00000036 T memmove
+00000036 T Print::write(char const*) [clone .constprop.58]
+00000032 b twi_txBuffer
+00000032 b twi_rxBuffer
+00000032 B twi_masterBuffer.lto_priv.77
+00000032 B TwoWire::txBuffer
+00000032 T Activate_Priv_Display_from_Flash()
+00000030 t u8x8_byte_SendByte
+00000030 T TwoWire::read()
+00000030 T HardwareSerial::availableForWrite()
+00000030 T Next_OLED()
+00000030 T clearDccProcState(unsigned char)
+00000030 T __umulhisi3
+00000028 T u8g2_font_decode_get_signed_bits
+00000028 T eeprom_write_byte
+00000028 T TwoWire::peek()
+00000028 T HardwareSerial::peek()
+00000028 T Activate_Next_Display_from_Flash()
+00000027 t setup::__c
+00000026 T u8g2_add_vector_y.lto_priv.69
+00000026 T u8g2_add_vector_x.lto_priv.70
+00000026 T memcmp
+00000024 d u8x8_ssd1306_128x32_univision_display_info
+00000024 T u8g2_font_get_word.lto_priv.71
+00000024 T millis
+00000024 T HardwareSerial::available()
+00000023 t ProcState_Outside_Disp(unsigned char)::__c
+00000022 T strchr
+00000022 B DccProcState
+00000022 T __muluhisi3
+00000022 T __do_global_ctors
+00000022 T __do_copy_data
+00000021 b zuglauf2
+00000021 b zuglauf1
+00000021 B DccRx
+00000020 t u8x8_cad_StartTransfer
+00000020 t u8x8_cad_SendCmd
+00000020 t u8x8_cad_SendArg
+00000020 t u8x8_cad_EndTransfer
+00000020 t u8x8_byte_StartTransfer
+00000020 t u8x8_byte_EndTransfer
+00000020 T u8x8_ascii_next
+00000020 t twi_stop
+00000020 t digital_pin_to_timer_PGM
+00000020 t digital_pin_to_port_PGM
+00000020 t digital_pin_to_bit_mask_PGM
+00000020 T Serial0_available()
+00000020 T serialEventRun()
+00000018 t u8x8_cad_SendData
+00000018 T u8x8_byte_SendBytes.constprop.5
+00000018 T memcpy
+00000018 d Disp_Txt
+00000018 d vtable for TwoWire
+00000018 d vtable for HardwareSerial
+00000018 T _ZL8Rail_Cfg.lto_priv.80
+00000017 b ziel
+00000016 t u8x8_gpio_call
+00000016 T eeprom_read_byte
+00000016 T TwoWire::available()
+00000016 T readCV(unsigned int)
+00000016 T __do_clear_bss
+00000014 T strcpy_P
+00000014 T memset
+00000012 B Wire
+00000012 T u8g2_SetDrawColor.constprop.45
+00000012 d vtable for U8G2_SSD1306_128X32_UNIVISION_F_HW_I2C
+00000012 T __tablejump2__
+00000010 t port_to_output_PGM
+00000010 t port_to_mode_PGM
+00000010 t port_to_input_PGM
+00000010 T abort
+00000008 b zugnummer
+00000008 b wagenstand
+00000008 B Dcc
+00000008 d abschnitt
+00000008 b u8x8_byte_arduino_8bit_8080mode::arduino_data_n_mask
+00000008 b u8x8_byte_arduino_8bit_8080mode::arduino_data_mask
+00000008 b u8x8_byte_arduino_ks0108::arduino_data_n_mask
+00000008 b u8x8_byte_arduino_ks0108::arduino_data_mask
+00000007 d u8x8_d_ssd1306_128x32_univision_flip1_seq
+00000007 d u8x8_d_ssd1306_128x32_univision_flip0_seq
+00000006 b uhrzeit
+00000006 d u8g2_cb_r2
+00000006 T Print::availableForWrite()
+00000005 d u8x8_d_ssd1306_128x32_univision_powersave1_seq
+00000005 d u8x8_d_ssd1306_128x32_univision_powersave0_seq
+00000004 T u8x8_dummy_cb
+00000004 T u8g2_font_calc_vref_font
+00000004 b timer0_overflow_count
+00000004 b timer0_millis
+00000004 b ShortBuf
+00000004 D intFunc.lto_priv.65
+00000004 b gleis
+00000004 b notifyDccAccTurnoutOutput::Timeout
+00000004 T __cxa_pure_virtual
+00000002 b twi_onSlaveTransmit
+00000002 b twi_onSlaveReceive
+00000002 b ProcChrPtr
+00000002 T nothing.lto_priv.63
+00000002 B LED_HeartBeat
+00000002 b ExternalInterruptHandler()::lastMicros
+00000002 T TwoWire::flush()
+00000002 T Print::flush()
+00000002 B _ZL6bitMin.lto_priv.66
+00000002 B _ZL6bitMax.lto_priv.67
+00000001 D UpdateDisplay
+00000001 b twi_txBufferLength
+00000001 b twi_txBufferIndex
+00000001 B twi_state.lto_priv.72
+00000001 B twi_slarw.lto_priv.78
+00000001 B twi_sendStop.lto_priv.73
+00000001 b twi_rxBufferIndex
+00000001 B twi_masterBufferLength.lto_priv.76
+00000001 B twi_masterBufferIndex.lto_priv.75
+00000001 B twi_inRepStart.lto_priv.79
+00000001 B twi_error.lto_priv.74
+00000001 b timer0_fract
+00000001 B subset
+00000001 D ProcState
+00000001 b PC_Mode
+00000001 B offset
+00000001 d Last_DispNr
+00000001 b gleisSeite
+00000001 D DispNr_Req
+00000001 d DispNr
+00000001 B Button2
+00000001 B Button1
+00000001 B Button0
+00000001 b Active_OLED
+00000001 b u8x8_byte_arduino_8bit_8080mode::arduino_e_n_mask
+00000001 b u8x8_byte_arduino_8bit_8080mode::arduino_e_mask
+00000001 b u8x8_byte_arduino_ks0108::arduino_e_n_mask
+00000001 b u8x8_byte_arduino_ks0108::arduino_e_mask
+00000001 b ExternalInterruptHandler()::halfBit
+00000001 b ExternalInterruptHandler()::bit2
+00000001 b ExternalInterruptHandler()::bit1
+00000001 b ExternalInterruptHandler()::DCC_IrqRunning
+00000001 b TwoWire::txAddress
+00000001 B TwoWire::txBufferLength
+00000001 B TwoWire::rxBufferLength
+00000001 B TwoWire::txBufferIndex
+00000001 B TwoWire::rxBufferIndex
+00000001 B TwoWire::transmitting
+00000001 B _ZL7ISREdge.lto_priv.68

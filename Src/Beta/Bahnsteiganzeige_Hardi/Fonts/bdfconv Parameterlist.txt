@@ -1,0 +1,43 @@
+bdfconv [options] filename
+-h          Display this help
+-v          Print log messages
+-b <n>      Font build mode, 0: proportional, 1: common height, 2: monospace, 3: multiple of 8
+-f <n>      Font format, 0: ucglib font, 1: u8g2 font, 2: u8g2 uncompressed 8x8 font (enforces -b 3)
+-m 'map'    Unicode ASCII mapping
+-M 'mapfile'    Read Unicode ASCII mapping from file 'mapname'
+-o <file>   C output font file
+-k <file>   C output file with kerning information
+-p <%>    Minimum distance for kerning in percent of the global char width (lower values: Smaller gaps, more data)
+-n <name>   C indentifier (font name)
+-d <file>   Overview picture: Enable generation of bdf.tga and assign BDF font <file> for description
+-l <margin> Overview picture: Set left margin
+-g <glyphs> Overview picture: Set glyphs per line (default: 16)
+-a          Overview picture: Additional font information (background, orange&blue dot)
+-t          Overview picture: Test string (Woven silk pyjamas exchanged for blue quartz.)
+-r          Runtime test
+
+map := <mapcmd> { "," <mapcmd> }
+mapcmd := <default> | <maprange> | <exclude> | <exclude-kerning>
+default := "*"
+maprange := <range> [  ">" <addexpr> ]        Move specified glyph <range> to target code <num>
+exclude := "~" <range> 
+exclude-kerning:= "x" <range> 
+range := <addexpr> [ "-" <addexpr> ]          Select glyphs within specified range
+addexpr := <mulexpr> [ "+" <mulexpr> ]
+mulexpr := <num> [ "*" <num> ]
+num := <hexnum> | <decnum>
+hexnum := "$" <hexdigit> { <hexdigit> }
+decnum := <decdigit> { <decdigit> }
+decdigit := "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+hexdigit := "a" | "b" | "c" | "d" | "e" | "f" | "A" | "B" | "C" | "D" | "E" | "F" | <decdigit>
+{ } zero, one ore more, [ ] zero or once, | alternative
+example:
+  -m '32-255'     select gylphs from encoding 32 to 255
+  -m '32-255,~64' select gylphs from encoding 32 to 255, exclude '@'
+  -m '32,48-57'   select space, '1', '2', ... '9'
+build modes:
+ -b 0: Most compact, glyph bitmap is minimal
+ -b 1: Like -b 0, but glyph bitmap is extended to the height of the largest glyph within the selected glyph list.
+       Also the width of the gylphs is extended to cover the delta x advance.
+ -b 2: Like -b 1, but glyph width is set to the width of the largest glyph within the selected gylph list.
+ -b 3: Like -b 2, but width and height are forced to be a multiple of 8.

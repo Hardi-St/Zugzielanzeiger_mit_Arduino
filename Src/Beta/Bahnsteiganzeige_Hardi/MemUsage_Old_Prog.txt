@@ -1,0 +1,137 @@
+00002605 t u8g_font_tpss
+00002292 T main
+00002171 t u8g_font_6x13B
+00001693 t u8g_font_5x8
+00001500 t u8g_font_4x6
+00000678 T u8g_dev_ssd1306_128x32_2x_fn
+00000660 T u8g_draw_glyph
+00000404 T realloc
+00000344 T u8g_dev_rot180_fn
+00000332 t global constructors keyed to 65535_0_Bahnsteiganzeige_V3.ino.cpp.o.12868
+00000304 T free
+00000298 T malloc
+00000256 b u8g_dev_ssd1306_128x32_2x_buf
+00000224 t u8g_WriteEscSeqP
+00000190 t u8g_draw_box.constprop.21
+00000180 T u8g_com_arduino_ssd_i2c_fn
+00000157 B Serial
+00000154 T u8g_SetFont.constprop.24
+00000148 T __vector_16
+00000144 T digitalWrite.constprop.16
+00000142 T HardwareSerial::write(unsigned char)
+00000121 b lauftext
+00000118 t operator+(StringSumHelper const&, String const&)
+00000114 T U8GLIB::write(unsigned char)
+00000110 T u8g_i2c_start.constprop.3
+00000104 T U8GLIB::drawStr(unsigned char, unsigned char, char const*) [clone .constprop.26]
+00000100 T __vector_18
+00000096 t String::concat(char)
+00000086 T String::copy(char const*, unsigned int)
+00000086 T Print::write(unsigned char const*, unsigned int)
+00000082 T u8g_i2c_wait
+00000080 T u8g_Begin
+00000078 t String::reserve(unsigned int)
+00000076 T __vector_19
+00000070 T String::getBytes(unsigned char*, unsigned int, unsigned int) const [clone .part.7] [clone .constprop.19]
+00000068 T u8g_UpdateDimension
+00000068 T u8g_IsBBXIntersection
+00000068 T HardwareSerial::flush()
+00000066 t u8g_pb16v1_set_pixel
+00000066 t u8g_i2c_send_byte
+00000066 T HardwareSerial::_tx_udr_empty_irq()
+00000062 T u8g_DrawBox.constprop.20
+00000062 B u8g
+00000056 T __prologue_saves__
+00000054 T __epilogue_restores__
+00000050 t u8g_com_arduino_ssd_start_sequence
+00000044 t u8g_pb16v1_SetPixel
+00000044 t u8g_page_Next
+00000042 T String::String(char const*)
+00000042 T Print::println(String const&) [clone .constprop.8]
+00000040 T HardwareSerial::read()
+00000038 t u8g_dev_ssd1306_128x32_adafruit3_init_seq
+00000036 T Print::write(char const*) [clone .constprop.14]
+00000032 t u8g_GetWidthLL
+00000032 t u8g_GetHeightLL
+00000030 T strncpy
+00000030 T HardwareSerial::availableForWrite()
+00000028 T Print::println(char const*) [clone .constprop.12]
+00000028 T HardwareSerial::peek()
+00000026 t u8g_i2c_init
+00000026 T String::operator=(char const*) [clone .constprop.7]
+00000024 t u8g_font_get_word
+00000024 T HardwareSerial::available()
+00000022 T __do_global_dtors
+00000022 T __do_global_ctors
+00000022 T __do_copy_data
+00000021 b zuglauf2
+00000021 b zuglauf1
+00000021 b ausgabe
+00000020 t u8g_font_GetFontGlyphStructureSize
+00000020 t u8g_Delay
+00000020 T serialEventRun()
+00000020 T Serial0_available()
+00000020 t digital_pin_to_timer_PGM
+00000020 T digital_pin_to_port_PGM
+00000020 T digital_pin_to_bit_mask_PGM
+00000018 t u8g_WriteByte
+00000018 t u8g_SetChipSelect
+00000018 t u8g_SetAddress
+00000018 T u8g_i2c_set_error.lto_priv.43
+00000018 T memcpy
+00000018 d vtable for HardwareSerial
+00000017 b ziel
+00000016 t _GLOBAL__sub_D_u8g
+00000016 T __do_clear_bss
+00000014 t u8g_page_First
+00000014 t u8g_i2c_stop
+00000014 T strcpy
+00000012 T __tablejump2__
+00000012 d vtable for U8GLIB_SSD1306_128X32_2X
+00000012 d vtable for U8GLIB
+00000011 t u8g_dev_ssd13xx_sleep_off
+00000010 t u8g_i2c_clear_error
+00000010 T String::~String()
+00000010 T port_to_output_PGM
+00000010 t port_to_mode_PGM
+00000010 T abort
+00000009 t u8g_dev_ssd13xx_sleep_on
+00000008 t u8g_font_GetFontStartEncoding
+00000008 t u8g_font_GetFontEndEncoding
+00000008 t u8g_dev_ssd1306_128x32_data_start
+00000008 T u8g_call_dev_fn
+00000008 d u8g_dev_ssd1306_128x32_2x_pb
+00000008 b zugnummer
+00000006 t u8g_font_GetFormat
+00000006 t u8g_font_GetEncoding97Pos
+00000006 t u8g_font_GetEncoding65Pos
+00000006 T Print::availableForWrite()
+00000006 d u8g_dev_ssd1306_128x32_2x_i2c
+00000006 d u8g_dev_rot
+00000006 B wagenstand
+00000006 b uhrzeit
+00000006 B gleis
+00000004 T u8g_font_calc_vref_font
+00000004 T u8g_dev_rot_dummy_fn
+00000004 T __cxa_pure_virtual
+00000004 b timer0_overflow_count
+00000004 b timer0_millis
+00000002 T u8g_state_dummy_cb
+00000002 T Print::flush()
+00000002 d draw()::zuglaufSpalte
+00000002 D __malloc_margin
+00000002 D __malloc_heap_start
+00000002 D __malloc_heap_end
+00000002 b subset
+00000002 b offset
+00000002 b incomingBytePosition
+00000002 b gleisSeite
+00000002 b draw()::zugdatenSaplte
+00000002 b currentState
+00000002 B __flp
+00000002 B __brkval
+00000001 B u8g_i2c_opt.lto_priv.44
+00000001 b u8g_i2c_err_pos
+00000001 b u8g_i2c_err_code
+00000001 b timer0_fract
+00000001 b incomingByte

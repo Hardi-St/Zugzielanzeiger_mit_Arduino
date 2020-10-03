@@ -1,0 +1,10 @@
+
+Schriften umwandeln: https://github.com/olikraus/u8g2/tree/master/tools/font/bdfconv
+U8g2 font format: https://github.com/olikraus/u8g2/wiki/u8g2fontformat
+U8glib font format
+
+Schriften der alten lib: https://github.com/olikraus/u8glib/tree/master/tools/font
+DIE alte Schrift: https://github.com/olikraus/u8glib/blob/master/tools/font/ttf/TEACPSS_.TTF
+         Als BDF: https://github.com/olikraus/u8glib/blob/master/tools/font/build/tpss.bdf
+         => \\Fritz-nas\fritz.nas\Temp
+Hier ist ein bdf2u8g konverter: https://github.com/olikraus/u8g2
